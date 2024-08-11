@@ -1,0 +1,14 @@
+comando para iniciar a aplicação:
+streamlit run 1_Elegiveis.py
+
+como eu criei um novo datframeç
+
+columns_to_exclude = ['Email', 'Phone', 'Work_phone', "Account_length", "Target", "Own_car"]
+new_df = df.drop(columns=columns_to_exclude)
+print(new_df.head())
+new_csv_file_path = 'dataset_limpo.csv'
+
+new_df.to_csv(new_csv_file_path, index=False)
+
+
+print(f"Novo dataset salvo em: {new_csv_file_path}")
