@@ -149,9 +149,6 @@ else:
 
 st.divider()
 
-st.write("Valores Filtrados de Years_employed:")
-st.write(filtered_df[['Years_employed']])
-
 st.title("🚨 Em caso de incosistência dos dados, relembre de clincar na página de elegiveis e fazer um novo filtro 🚨")
 
 
